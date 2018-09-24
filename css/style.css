@@ -1,0 +1,133 @@
+.hotel{margin: 0 auto;}
+
+.nav-container{width: 100%;height: 83px;background: #262f38;border-bottom: 4px solid #0ab3d4;position: fixed;top:0;z-index: 10}
+.nav-1{width: 1280px;margin: 0 auto;height: 83px;position: relative}
+.nav-1 img{margin-top:18px;float: left;margin-right: 560px;}
+.nav-1 ul{width: 340px;height: 83px;float: left;}
+.nav-1 ul li.t0{margin-left: 0;}
+.nav-1 ul li{float: left;width: 74px;height: 83px;text-align: center;margin-left: 14px;}
+.nav-1 ul li:hover{background:#0ab3d4;}
+.nav-1 ul li a{font-size: 16px;color: #ffffff;line-height: 80px;}
+.nav-1 ol{width:190px;float: left;height: 83px;margin-left:50px;}
+.nav-1 ol li{float: left;margin-left: 12px;margin-top: 30px;}
+.nav-1 ol .sp0{background: url("../img/social-sprit.png") no-repeat;background-position: 0 0;width: 10px;height: 20px;}
+.nav-1 ol .sp0:hover{background-position: 0 -25px;}
+.nav-1 ol .sp1{background: url("../img/social-sprit.png") no-repeat;background-position: -17px 0;width: 20px;height: 20px;}
+.nav-1 ol .sp1:hover{background-position: -17px -25px;}
+.nav-1 ol .sp2{background: url("../img/social-sprit.png") no-repeat;width: 20px;height: 20px;background-position: -39px 0;}
+.nav-1 ol .sp2:hover{background-position: -39px -25px;}
+.nav-1 ol .sp3{background: url("../img/search.png") no-repeat;width: 37px;height: 37px;margin-top: -10px;margin-left: 24px;}
+.nav-1 ol li a{display: block;}
+.nav-1 dl a{display: block;background: url("../img/icon.png") no-repeat;width: 40px;height: 40px;position: absolute;top:23%;right:34px;}
+.nav-1 dt{display: none}
+.nav-1 dt ul{position: absolute;right: 20px;width:100px;z-index: 5;background:#262f38;top:100px;}
+.nav-1 dt ul li{float:left;height:80px;width: 100px;margin:0;background: #0ab3d4;border-bottom: 1px solid #eee;}
+.nav-1 dt ul li a{line-height:80px;}
+.nav-1 dt ul li:hover{background: orange}
+
+.nav-2{background: url("../img/ban.jpg") no-repeat;width: 1280px;height: 721px;margin:0 auto;position: relative;margin-top: 87px;}
+.nav-2 a{width: 48px;height: 48px;display: block;position: absolute;top:50%;margin-top: -24px;}
+.nav-2 a.prev{background: url("../img/prev.png") no-repeat;}
+.nav-2 a.next{background: url("../img/next.png") no-repeat;right: 0}
+.nav-2 .text{}
+.nav-2 .text h2{color: white;font-size: 40px;text-align: center;padding-top: 314px;font-weight: bold}
+.nav-2 .text h3{color: #07adbb;font-size: 20px;text-align: center;font-weight: bold}
+.nav-2 .text a{background: url("../img/btn.png") no-repeat;display: block;width: 112px;height: 34px;left: 50%;margin-left: -56px;margin-top: 64px;}
+
+.nav-3{width: 1280px;background: #0ab3d4;margin: 0 auto}
+.nav-3 p{line-height: 75px;color: white;font-size: 16px;margin-left: 16px;font-weight: bold}
+.nav-3 a{background: url("../img/readmore.png") no-repeat;display: block;width: 111px;height: 35px;float: right;margin-top: -50px;margin-right: 18px;}
+
+.service{width: 1280px;margin: 0 auto;overflow: hidden;margin-top: 34px;}
+.service h1{font-size: 20px;font-weight: bold;text-align: center}
+.service h2{font-size: 14px;color: #8f9190;text-align: center;}
+.service ul{margin-top: 32px;border-bottom: 1px solid #eee;height: 399px;text-align: center}
+.service ul li{width:400px;float: left;margin-left: 20px;}
+.service ul li a{color: #bfbdca;font-size: 12px;width: 302px;display: block;margin-left: 52px;}
+.service ul li a:hover{color: orange}
+.service ul li span{font-size: 14px;font-weight: bold;}
+
+.feature{width: 1280px;margin: 0 auto;margin-top: 34px;border-bottom: 1px solid #eee;}
+.feature h1{font-size: 20px;font-weight: bolder;text-align: center}
+.feature h2{font-size: 14px;color: #8f9190;text-align: center;margin-bottom: 46px;}
+.feature ul{height: 222px;}
+.feature img{float: left;display: block;margin-right: 28px;}
+.feature h3{font-size: 16px;font-weight: bold;padding-top: 22px;margin-bottom: 14px;}
+.feature a.text1{color:#adadb5;font-size: 12px;width:540px;display: block;float: left;line-height: 24px;}
+.feature a.text2{color: #61d1e5;border-bottom: 1px solid;}
+
+.Effective{width: 1280px;margin: 0 auto;margin-top: 34px;border-bottom: 1px solid #eee;height: 342px;}
+.Effective h1{font-size: 20px;font-weight: bolder;text-align: center}
+.Effective h2{font-size: 14px;color: #8f9190;text-align: center;margin-bottom: 46px;}
+.Effective ul{height: 222px;}
+.Effective img{float:right;display: block;margin-right: 48px;}
+.Effective h3{font-size: 16px;font-weight: bold;padding-top: 22px;margin-bottom: 14px;width: 200px;margin-left: 20px;}
+.Effective a.text1{color:#aaacab;font-size: 12px;width:540px;display: block;line-height: 24px;margin-left: 20px;margin-bottom: 22px;}
+.Effective a.text2{color: #61d1e5;border-bottom: 1px solid;margin-left: 20px;}
+
+.Project{width: 1280px;margin: 0 auto;margin-top: 34px;border-bottom: 1px solid #eee;height:416px;}
+.Project h1{font-size: 20px;font-weight: bolder;text-align: center}
+.Project h2{font-size: 14px;color: #8f9190;text-align: center;margin-bottom: 46px;}
+.Project ul{text-align: center}
+.Project ul li{width: 255px;float: left;margin-left:50px;}
+.Project span{font-size: 14px;font-weight: bold;text-align: center;display: block}
+.Project a{font-size: 12px;color: #9da1a0;text-align: center;display: block}
+
+section{width: 1280px;margin: 0 auto;margin-top: 34px;height:266px;text-align: center}
+section h1{font-size: 20px;font-weight: bolder}
+section span{font-size: 14px;color: #b6b6b4}
+section em{display: block;width: 320px;height: 16px;border-bottom: 1px solid;margin: auto;margin-bottom: 10px;}
+section p{color: #989994;width: 790px;font-size: 12px;margin: auto;margin-top: 54px;}
+section a{font-size: 14px;font-weight: bold}
+
+article{width: 1280px;margin: 0 auto;height:106px;background: #0ab3d4;}
+article h4{color: white;font-size: 16px;font-weight: bolder;padding-top: 26px;margin-bottom: 10px;margin-left: 20px;}
+article em{color: white;border-bottom: 1px solid;margin-left: 20px;}
+article a{display: block;background: url("../img/learnmore.png") no-repeat;width: 116px;height: 35px;float: right;margin-right: 20px;margin-top: 39px;}
+
+.foot{width: 1280px;margin: 0 auto;height:296px;background: #262f38;}
+.foot ul{padding-top: 32px;}
+.foot ul li{width: 227px;margin-left:60px;float: left}
+.foot ul li h1{color: white;font-size: 16px;font-weight: bolder;margin-bottom:22px;}
+.foot ul li p{color: white;font-size: 12px;}
+.foot ul li ol{border-bottom: 1px solid #8c9f9d;height: 58px;margin-top: 8px;}
+.foot ul li ol a{font-size: 12px;font-weight: bold;color: white;display: block;margin-left:79px;}
+.foot ul li ol span{font-size: 12px;color: #8c9f9d;margin-left: 18px;}
+.foot ul li ol img{display: block;float: left;}
+.foot ul li a.t1{color: white;border-bottom: 1px solid #8c9f9d;display: block;padding-bottom:10px;margin-top:7px;}
+.foot ul li.t2{width: 270px;}
+.foot ul li.t2 img{margin-left:8px;margin-top:8px;}
+
+
+
+@media (max-width: 1280px) {
+    .nav-1,.nav-2,.nav-3,.service,.feature,.Effective,.Project,.foot,section,article{width: auto}
+    .nav-1 ul,.nav-1 ol{display: none}
+    .nav-1 dl{display: block}
+    .service ul{border-bottom: none;margin-top: 0}
+    .service img{margin-top: 40px;}
+
+}
+@media (min-width: 1280px) {
+    .nav-1 dl,dt{display: none}
+}
+@media (min-width: 860px) and (max-width: 1219px) {
+    .Project{height: 700px;}
+    .Project h2{margin-bottom: 0}
+    .Project img{margin-top: 30px;}
+    .feature ul li a.text1{width: 400px;}
+}
+@media (min-width: 860px) and (max-width: 915px) {
+    .Project ul li{margin-left: 130px;}
+}
+@media (min-width: 860px) and (max-width: 1190px){
+    .foot{height: 560px}
+    .foot ul li{margin-left:100px}
+}
+@media (min-width: 860px) and (max-width: 980px){
+    .foot ul li.t2{margin-top: 40px;}
+    .foot ul li.t1{margin-top: 40px;}
+}
+@media (min-width: 915px) and (max-width: 1219px) {
+    .Project ul li{margin-left: 120px;}
+}
